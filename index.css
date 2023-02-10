@@ -1,0 +1,72 @@
+@font-face {
+    font-family: Inter;
+    src: url(Inter-VariableFont_slnt,wght.ttf);
+}
+
+@font-face {
+    font-family: Karla;
+    src: url(Karla-VariableFont_wght.ttf);
+    font-weight: 800;
+}
+
+
+body {
+    margin: 0;
+    background: #1C1C1C;
+}
+
+.main-container {
+    background: #1F2937;
+    margin: 65px 60px;
+}
+
+h1 {
+    font-family: 'Karla';
+    font-size: 40px;
+    margin: 0 52px; 
+}
+
+#heading-1 {
+    color: #FFFFFF;
+    padding-top: 115px;
+}
+
+#heading-2 {
+    color: #4ADF86;
+    padding-bottom: 10px;
+}
+
+p {
+    font-family: 'Inter';
+    font-size: 20px;
+    color: #D5D4D8;
+    margin: 0 52px;
+}
+
+#generate-pw-btn {
+    margin: 50px 0 0 52px;
+    padding: 10px 15px;
+    font-family: 'Inter';
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #10B981;
+    border: 0;
+    border-radius: 6px;
+}
+
+#line {
+    margin: 35px 52px;
+    border: 1px solid #2F3E53;
+}
+
+#pw-btn-1, #pw-btn-2 {
+    background: #273549;
+    color: #55F991;
+    font-family: 'Inter';
+    font-size: 16px;
+    border: 0;
+    border-radius: 6px;
+    margin: 0 0 115px 52px;
+    height: 40px;
+    width: 200px;
+}
